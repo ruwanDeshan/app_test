@@ -1,7 +1,6 @@
 import javafx.application.Application;
 import javafx.stage.Stage;
 
-import java.sql.SQLOutput;
 
 public class AppInitializer extends Application {
 
@@ -13,5 +12,6 @@ public class AppInitializer extends Application {
     public void start(Stage primaryStage) {
         System.out.println("started....");
         new Student().printName();
+        new Branch1().printAge();
     }
 }
